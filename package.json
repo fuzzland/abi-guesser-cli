@@ -1,0 +1,19 @@
+{
+  "name": "abi-guesser-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openchainxyz/abi-guesser": "^1.0.2",
+    "yargs": "^17.7.2"
+  },
+  "bin": {
+    "abi-guesser": "./index.js"
+  }
+}
